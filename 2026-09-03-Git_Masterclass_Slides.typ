@@ -5,7 +5,7 @@
 #show: radharc.with(
   title: "Git Masterclass",
   author: "Dara MacConville",
-  date: datetime(year: 2026, month: 9, day: 3)
+  date: datetime(year: 2026, month: 9, day: 3),
 )
 
 = Setup
@@ -16,9 +16,9 @@
     qrcode(
       "https://macconville.ie/masterclass",
       options: (scale: 4.0),
-      alt: "https://macconville.ie/masterclass"
-    )
-  )
+      alt: "https://macconville.ie/masterclass",
+    ),
+  ),
 )
 
 / URL: #link("https://macconville.ie/masterclass")[macconville.ie/masterclass]
@@ -91,22 +91,18 @@ Demo
 - Releases
 
 == Git
-- It's just the biggest, most popular and thus well supported and resourced version control system
+- Most popular and thus well supported and resourced version control system
 
 == GitHub
-
+- Most popular and thus well supported and resourced git forge
+- Not official!
 
 == Fun Things
-- https://github.com/unhappychoice/gitlogue - cinema!
+- #link("https://github.com/unhappychoice/gitlogue")[cinema] - cinema!
 - GitHub pages site
-    - [My site](https://macconville.ie)
-        - [Repo](https://github.com/DaraMac/daramac.github.io)
-    - [Cormac's site](https://c-monaghan.github.io)
-- Or simpler, a personal README.md
-- [Cormac again](https://github.com/C-Monaghan)
 - Social network features
-    - Stars
-    - Following
+  - Stars
+  - Following
 
 = Introduction
 == Links Again
@@ -116,9 +112,9 @@ Demo
     qrcode(
       "https://macconville.ie/masterclass",
       options: (scale: 4.0),
-      alt: "https://macconville.ie/masterclass"
-    )
-  )
+      alt: "https://macconville.ie/masterclass",
+    ),
+  ),
 )
 
 / URL: #link("https://macconville.ie/masterclass")[macconville.ie/masterclass]
