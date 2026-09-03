@@ -174,7 +174,8 @@ Demo
 ```sh git push```
 
 == Pulling
-```sh git pull```
+- ```sh git pull```
+- Not to be confused with a pull request
 
 == Cloning
 ```sh git clone url```
