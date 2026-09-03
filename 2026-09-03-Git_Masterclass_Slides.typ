@@ -89,8 +89,8 @@ Demo
 - Demo
 
 == Other Things
+- Testing
 - CI/CD
-- Tests
 - Releases
 
 == Git
@@ -140,6 +140,9 @@ Demo
 
 == Status
 ```sh git status```
+
+== Remotes
+```sh git remote```
 
 == Adding
 ```sh git add```
