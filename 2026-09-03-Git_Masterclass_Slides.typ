@@ -38,6 +38,7 @@ sourcehut
 cgit
 
 == Connecting GitHub
+- SSH! https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 == Getting a GUI
 / Official list: #link("https://git-scm.com/tools/guis")[git-scm.com/tools/guis]
@@ -47,6 +48,8 @@ cgit
 / Linux: #link("https://codeberg.org/ckruse/Gitte")[codeberg.org/ckruse/Gitte]
 
 == Editor Integration
+- RStudio
+- VSCode https://code.visualstudio.com/docs/sourcecontrol/quickstart
 
 = Motivation
 == Workflow
@@ -67,20 +70,20 @@ Demo
 - Everything text
   - Code
   - Papers (if not already on Overleaf)
-  - Latex presentations
   - Notes
   - Configuration files (dotfiles)
-- Datasets?
-  - A small to mid size csv maybe
-  - Possibly not pure text, so not such a good fit for VCS like git
-  - Maybe too big
-  - But some will be appropriate
-  - Should be backed up _somewhere_!
+
+=== Datasets?
+- A small to mid size csv maybe
+- Possibly not pure text, so not such a good fit for VCS like git
+- Maybe too big
+- But some will be appropriate
+- Should be backed up _somewhere_!
 
 == Reproducibility
 - Personal
   - I want you to ask yourself, how long would it take to restore all your work on a brand new machine, and how difficult/easy would it be?
-  - No need for hypothetical, let's test right now! (maybe on a blank VM I set up)
+  - No need for hypothetical, let's test right now!
 - For other researchers / users
 - Licence!
 - Demo
@@ -98,11 +101,11 @@ Demo
 - Not official!
 
 == Fun Things
-- #link("https://github.com/unhappychoice/gitlogue")[cinema] - cinema!
 - GitHub pages site
 - Social network features
   - Stars
   - Following
+- #link("https://github.com/unhappychoice/gitlogue")[cinema!]
 
 = Introduction
 == Links Again
@@ -118,3 +121,83 @@ Demo
 )
 
 / URL: #link("https://macconville.ie/masterclass")[macconville.ie/masterclass]
+
+== Resources
+- https://wizardzines.com/git-cheat-sheet.pdf
+- https://ohshitgit.com
+- https://git-scm.com/book/en/v2
+- https://book.the-turing-way.org/reproducible-research/vcs
+
+== Model
+- Distributed version control system
+- It's just files in `.git/`
+- Graphs!
+- Hashs
+
+== Setting up a repo
+```sh git init```
+
+== Status
+```sh git status```
+
+== Adding
+```sh git add```
+
+== Committing
+- ```sh git commit```
+- ```sh git commit --amend```
+
+== Ignoring
+- `.gitignore`
+- .DS_Store
+- \_\_pycache\_\_
+- `.Renviron`
+- Any other examples
+
+== Seeing History
+```sh git log```
+
+== Branching
+- ```sh git branch name```
+- ```sh git switch name```
+- Create with `-c` flag
+
+== Diffing
+- ```sh git diff```
+- ```sh git diff --staged```
+
+== Pushing
+```sh git push```
+
+== Pulling
+```sh git pull```
+
+== Cloning
+```sh git clone url```
+
+== Configuring
+- ```sh git config --list --show-origin```
+- ```sh git config --global user.name "Your Name"```
+
+== Merging
+- ```sh git merge name```
+- Conflicts
+
+== Tagging
+- ```sh git tag name```
+- ```sh git push --tags```
+
+== Throwing Away Changes
+- ```sh git restore name```
+
+== Undoing Change
+- ```sh git revert hash```
+- ```sh git checkout hash -- path/to/file```
+
+== The Nuclear Option
+```sh rm -rf```
+
+== Collaborating!
+- Add other people to private repos
+- Or just leave it public
+- Find a project
