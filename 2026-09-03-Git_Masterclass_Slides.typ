@@ -126,6 +126,7 @@ Demo
 - https://wizardzines.com/git-cheat-sheet.pdf
 - https://ohshitgit.com
 - https://git-scm.com/book/en/v2
+- https://wizardzines.com/zines/git
 - https://book.the-turing-way.org/reproducible-research/vcs
 
 == Model
@@ -201,3 +202,11 @@ Demo
 - Add other people to private repos
 - Or just leave it public
 - Find a project
+
+== Hooks
+
+== Actions
+https://docs.github.com/en/actions
+
+== Exercise
+You should all o
